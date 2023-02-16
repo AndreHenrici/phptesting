@@ -1,0 +1,12 @@
+body{
+    background-color: lightblue;
+
+}
+
+button[name = button] {
+    width: 200px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 20px;
+}
