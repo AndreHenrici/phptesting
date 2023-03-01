@@ -2,7 +2,7 @@
 include "../funktionen.php";
 
 $datei = fopen("csv_k.CSV", "r");
-$username = "andre";
+$username = "root";
 $tableName = "csv";
 
 $filepath = 'C:\Apache24\htdocs\CSV\pw.txt';
