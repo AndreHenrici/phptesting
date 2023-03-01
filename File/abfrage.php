@@ -21,7 +21,7 @@ include '../funktionen.php';
     for($i = 0; $i < count($arr); $i+=2){
         $resultSet[$arr[$i]] = $arr[$i+1];
     }
-
+    pre($resultSet);
     
 ?>
 
