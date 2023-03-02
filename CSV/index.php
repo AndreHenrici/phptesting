@@ -1,4 +1,5 @@
 <?php
+//CSV-Datei bearbeiten und in Datenbank integrieren
 include "../funktionen.php";
 
 $datei = fopen("csv_k.CSV", "r");
