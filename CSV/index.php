@@ -6,7 +6,7 @@ $datei = fopen("csv_k.CSV", "r");
 $username = "root";
 $tableName = "csv";
 
-$filepath = 'C:\Apache24\htdocs\CSV\pw.txt';
+$filepath = './pw.txt';
 $file = fopen($filepath, "r");
 
 $content = fread($file, filesize($filepath));
