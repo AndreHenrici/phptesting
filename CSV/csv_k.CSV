@@ -1,5 +1,6 @@
-id,name,vorname,geburtstag,lieblingsuhrzeit,kommentar
+id,name,vorname,geburtstag,uhrzeit,kommentar
 and.hen,Henrici,Andr�,01.07.1991,11:11:11,Hallelujahsagje
 pau.pom,Pommes,Paul,07.07.1907,07:07:07,jacko potto dotto
 tor.hen,Henning,Torsten,01.02.1903,01:02:03,der frühe vogel
 pet.maf,Mafio,Peter,01.01.1990,00:00:00,zu froh
+tom.ohm,Tom,Ohmaha,13.12.1913,13:13:13,johoho

@@ -20,7 +20,7 @@ fclose($file);
 $pw[$arr[0]] = $arr[1];
 
 
-if ($db = mysqli_connect("localhost", $username, $pw[$username], "data")){
+if ($db = mysqli_connect("virtual.ubuntu", $username, $pw[$username], "data")){
     echo "Verbindungsaufbau erfolgreich <br>";
 
     $headers = fgetcsv($datei);
