@@ -4,7 +4,7 @@ include "../funktionen.php";
 
 $datei = fopen("csv_k.CSV", "r");
 $username = "andre";
-$tableName = "csv";
+$tableName = "csv2";
 
 $filepath = 'pw.txt';
 $file = fopen($filepath, "r");
@@ -19,9 +19,9 @@ $arr = array_values($arr);
 fclose($file);
 
 $pw[$arr[0]] = $arr[1];
+//JOjohohohohoho
 
-
-if ($db = mysqli_connect("localhost", "root", "pw123", "dvirtub")){
+if ($db = mysqli_connect("localhost", "andre", "pw123", "dvirtub")){
     echo "Verbindungsaufbau erfolgreich <br>";
 
     $headers = fgetcsv($datei);
@@ -61,7 +61,7 @@ if ($db = mysqli_connect("localhost", "root", "pw123", "dvirtub")){
     $sqlFields = substr($sqlFields, 0, strlen($sqlFields) - 2);
 
     foreach($resultSetRows as $row){
-        $sql = "INSERT INTO csv (";
+        $sql = "INSERT INTO $tableName (";
         $i = 0;
 
         $sql .= $sqlFields;
