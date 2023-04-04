@@ -3,7 +3,7 @@
 
     $a = 36;
 
-    $client = new nusoap_client("http://localhost/Webservices");
+    $client = new nusoap_client("http://localhost/Webservices/index.php");
     $antwort = $client->call("quadrat",[$a]);
 
     if ($fehler = $client->getError()){
