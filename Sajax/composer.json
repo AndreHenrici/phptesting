@@ -1,0 +1,12 @@
+{
+    "name": "ajenbo/sajax",
+    "description": "Simple Ajax Toolkit",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sajax\\": "php/"
+        }
+    }
+}

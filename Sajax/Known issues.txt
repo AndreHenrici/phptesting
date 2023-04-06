@@ -1,0 +1,7 @@
+iCab 3.0.5 will fail badly when using json_parse_state and receving large stings.
+
+IE 5.01 will fail nicly when using json_parse.
+
+Safari 1.2 will send malformed data when using json2.stringify and sending numberes as strings.
+
+Prototype 1.5.1 to 1.7.0 breakes browser functionalit needed by Sajax, make sure to upgrade to 1.7.1 or later.
